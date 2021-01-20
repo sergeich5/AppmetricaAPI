@@ -11,6 +11,11 @@ class Push
     private string $token;
     private const API_URL = 'https://push.api.appmetrica.yandex.net/push/v1/';
 
+    function __construct(string $token)
+    {
+        $this->token = $token;
+    }
+
     function with(string $token) : self
     {
         $this->token = $token;

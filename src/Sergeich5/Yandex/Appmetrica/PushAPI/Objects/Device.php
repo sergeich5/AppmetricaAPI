@@ -9,7 +9,7 @@ abstract class Device extends Obj
     private string $type;
     private array $values = [];
 
-    function setType(string $type) : self
+    protected function setType(string $type) : self
     {
         $this->type = $type;
         return $this;
