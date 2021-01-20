@@ -1,0 +1,21 @@
+{
+    "name": "sergeich5/appmetrica-api",
+    "description": "Yandex Appmetrica Push API SDK",
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sergeich5",
+            "email": "arabyi@ya.ru"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    }
+}
